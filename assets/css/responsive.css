@@ -1,0 +1,111 @@
+@media only screen and (max-width: 400px) {
+    .banner-content h1{
+       
+        font-size:15px;
+    }
+    .banner-content p{
+       font-size:10px;
+    }
+}
+  @media only screen and (max-width: 600px) {
+      .navbar-nav .nav-link {
+          text-align: center!important;
+          
+      }
+     .contact{
+        display:block;
+        margin:0 auto;
+     }
+     .banner-content h1{
+       
+        font-size:28px;
+    }
+    .banner-content p{
+       font-size:13px;
+    }
+    .hero img{
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .our-team h5{
+        display:block;
+        margin:0 auto;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h5{
+        padding-top:20px;
+    }
+
+  }
+  @media only screen and (max-width: 768px) {
+    
+       .navbar-nav .nav-link {
+          text-align: center!important;
+          
+      }
+      .contact{
+        display:block;
+        margin:0 auto;
+     }
+     .banner-content h1{
+       
+        font-size:28px;
+    }
+    .banner-content p{
+       font-size:13px;
+    }
+    .hero img{
+        object-fit: cover;
+        max-width: 100%;
+    }
+    .our-team h5{
+        display:block;
+        margin:0 auto;
+    }
+    footer{
+        text-align: center;
+    }
+    footer h5{
+        padding-top:20px;
+    }
+     
+  }
+  
+  @media only screen and (max-width: 992px) {
+       .navbar-nav .nav-link {
+          text-align: center!important;
+          
+      }
+      .contact{
+        display:block;
+        margin:0 auto;
+     }
+    
+    .hero img{
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        margin-top:70px;
+    }
+    .hero-one h3,
+    .hero-one p{
+        padding-left:40px!important;
+        line-height: 30px;
+    }
+   
+    footer h5{
+        padding-top:20px;
+    }
+  }
+  @media (min-width: 992px){
+    .hero img{
+        object-fit: cover;
+        max-width: 100%;
+        
+    }
+   
+  }
+  
+  
